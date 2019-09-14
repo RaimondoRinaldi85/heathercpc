@@ -1,0 +1,218 @@
+/* Start General settings */
+
+
+*{
+	scroll-behavior: smooth;
+	font-family: 'Montserrat';
+}
+
+body{
+	background: #e8ecef;
+	
+}
+
+a{
+	color: white;
+}
+
+a:hover{
+	color: rgb(122, 177, 231) !important;
+	text-decoration: none;
+}
+/* End General settings */
+/* Start navbar */
+.navbar {
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: .75rem;
+	letter-spacing: .1rem;
+	background: rgba(80, 119, 210, 55%) !important;
+	box-shadow: 0px 3px 6px rgba(0, 0, 0, 16%);
+}
+
+.navbar-custom .navbar-nav .nav-link {
+	color: white !important;
+	padding: 1.5rem 1rem;
+}
+.navbar-custom .navbar-nav .nav-link:hover {
+	color: rgb(122, 177, 231) !important;
+}
+
+.navbar-toggler {
+	color: black !important;
+}
+/* End navbar */
+/* Start Landing Page */
+.home-inner {
+	background-image: url('../img/bg1.png');
+}
+
+.caption {
+	width: 100%;
+	max-width: 100%;
+	position: absolute;
+	top: 25%;
+	z-index: 1;
+	color: white;
+}
+
+.caption h1 {
+	font-size: 55px;
+	font-weight: 700;
+	text-shadow: 5px 8px 10px rgba(0, 0, 0, 16%);
+	padding-bottom: 1rem;
+	animation: DPO 2.5s forwards 0s linear;
+}
+
+.caption h3 {
+	font-size: 35px;
+	font-weight: 300;
+	padding-bottom: .9rem;
+}
+
+.btn-lg {
+	background: #F53200;
+	border-width: 0px;
+	border-radius: 59px;
+	padding: 1rem 1.5rem;
+	font-size: 1.1rem;
+	margin: 1rem 1rem;
+	box-shadow: 8px 7px 10px rgba(0, 0, 0, 16%);
+}
+.btn-lg2 {
+	background: #F53200;
+	border-width: 0px;
+	border-radius: 59px;
+	padding: 1rem 2.5rem;
+	font-size: 1.1rem;
+	margin: 1rem 1rem;
+	box-shadow: 8px 7px 10px rgba(0, 0, 0, 16%);
+}
+
+@keyframes DPO{
+    0%{
+        opacity: 0;
+        }
+    50%{
+        opacity: 0.5;
+        }
+    100%{
+        transform: rotate(xx);
+        opacity: 1;
+        }
+}
+/* End Landing Page */
+/* Start Info section */
+.fixed {
+	background-image: url('../img/bg2.jpg');
+	z-index: -1;
+}
+
+.dark {
+	background: linear-gradient(33deg, #c1e3ff75, #abc7ff75);
+	color: white;
+	padding: 7rem 2rem;
+}
+
+.fixed-background h3 {
+	margin-bottom: 2rem;
+}
+
+.fixed-background p {
+	margin-top: 1.5rem;
+}
+
+.heading-underline {
+	width: 3rem;
+	height: .2rem;
+	background-color: #850823;
+	margin: 0 auto 2rem;
+}
+/* End Info section */
+/* Start Clients Section */
+.clients img {
+	width: 100%;
+	border-radius: 50%;
+}
+
+blockquote .svg-inline--fa {
+	color: #c01111;
+	margin: 1rem;
+}
+
+.clients-hr {
+	border-top: .05rem solid #c01111;;
+}
+/* End Clients Section */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Start Contact Section */
+footer {
+	color: white;
+	position: absolute;
+	bottom: 0%;
+	width: 100%;
+	background: rgba(80, 119, 210, 55%) !important;
+}
+
+footer p{
+	padding: 0 !important;
+	margin: 0;
+	font-size: 14px;
+}
+
+/* End Contact Section */
+
+
+
+@media (max-width: 767px) {
+	.caption h1 {
+		font-size: 2.3rem;
+		letter-spacing: .15rem;
+		padding-bottom: .5rem;
+	}
+
+	.caption h3 {
+		font-size: 1.2rem;
+		padding-bottom: 1.2rem;
+	}
+
+	.btn-lg {
+		padding: .5rem 1rem;
+		font-size: 1rem;
+	}
+	.narrow h1 {
+		font-size: 1.5rem;
+	}
+	.clients img {
+		max-width: 50%;
+		display: block;
+		margin: 0 auto;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
