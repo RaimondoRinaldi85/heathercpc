@@ -71,7 +71,7 @@ a:hover{
 }
 
 .btn-lg {
-	background: #F53200;
+	background: rgb(255, 145, 85);
 	border-width: 0px;
 	border-radius: 59px;
 	padding: 1rem 1.5rem;
@@ -80,7 +80,7 @@ a:hover{
 	box-shadow: 8px 7px 10px rgba(0, 0, 0, 16%);
 }
 .btn-lg2 {
-	background: #F53200;
+	background: rgb(255, 145, 85);
 	border-width: 0px;
 	border-radius: 59px;
 	padding: 1rem 2.5rem;
@@ -177,6 +177,9 @@ footer p{
 
 
 @media (max-width: 767px) {
+	.home-inner {
+		background-image: url('../img/bgm.png');
+	}
 	.caption h1 {
 		font-size: 2.3rem;
 		letter-spacing: .15rem;
