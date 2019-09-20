@@ -254,7 +254,44 @@ footer p{
 
 
 
+/* ObserverJS */
 
+.anim{
+    opacity: 0;
+}
+.animation{
+    opacity: 0;
+}
+@keyframes anim1 {
+    from{
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes animup {
+    from{
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes animright {
+    from{
+        transform: translateX(100px);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
 
 
 
