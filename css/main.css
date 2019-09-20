@@ -158,10 +158,9 @@ a:hover{
 	}
 
 	.card{
-		background: rgba(192, 113, 11, 0.55);
-		border-radius: 10px;
+		background: rgba(250, 140, 36, 0.849);
+		border-radius: 2px;
 		border: none;
-		height: 700px;
 		box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.24);
 	}
 
