@@ -100,7 +100,7 @@ a:hover{
 	width: 100%;
 	max-width: 100%;
 	position: absolute;
-	top: 35%;
+	top: 25%;
 	z-index: 1;
 	color: rgb(255, 255, 255);
 }
@@ -124,8 +124,8 @@ a:hover{
 	border-width: 0px;
 	border-radius: 59px;
 	padding: 1rem 1.5rem;
-	font-size: 1.1rem;
 	margin: 1rem 1rem;
+	font-size: 1.1rem;
 	box-shadow: 8px 7px 10px rgba(0, 0, 0, 16%);
 }
 .btn-lg2 {
@@ -133,10 +133,16 @@ a:hover{
 	border-width: 0px;
 	border-radius: 59px;
 	padding: 1rem 2.5rem;
+	margin: 1rem 1rem;
 	font-size: 1.1rem;
-	margin: 5rem 1rem;
 	box-shadow: 8px 7px 10px rgba(0, 0, 0, 16%);
 }
+
+.aapc{
+	margin-top: 1rem;
+}
+
+
 
 @keyframes DPO{
     0%{
