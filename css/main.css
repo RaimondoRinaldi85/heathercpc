@@ -192,19 +192,28 @@ a:hover{
 /* End Services section */
 /* Start Contacts Section */
 
+.top{
+	background: #b700ff;
+	font-weight: 800;
+	font-size: 12px;
+}
+
+.top a{
+	color: white;
+}
+.contatti{
+	background: rgba(255, 255, 255, 0.74) !important;
+	padding: 3rem;
+	color: black;
+}
+
+.contatti p{
+	color: #b700ff;
+}
+
+
+
 /* End Contacts Section */
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* Start footer Section */
 
