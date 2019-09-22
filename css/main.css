@@ -116,8 +116,8 @@ a:hover{
 .caption h3 {
 	font-size: 30px;
 	font-weight: 400;
-	padding-bottom: 2.9rem;
 }
+
 
 .btn-lg {
 	background: rgb(255, 145, 85);
@@ -158,15 +158,16 @@ a:hover{
 	}
 
 	.card{
-		background: rgba(250, 140, 36, 0.849);
-		border-radius: 2px;
+		/*background: rgba(250, 140, 36, 0.849);*/
+		background: rgba(245, 168, 79, 0.877);
+		border-radius: 5px;
 		border: none;
 		box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.24);
 		margin-bottom: 1.2rem;
 	}
 
 	.card-title{
-		padding-top: 1rem;
+		padding: 1rem;
 	}
 
 	.heading-underline {
@@ -200,6 +201,7 @@ a:hover{
 
 
 /* Start footer Section */
+
 footer {
 	color: rgb(0, 0, 0);
 	width: 100%;
@@ -217,11 +219,12 @@ footer p{
 
 
 @media (max-width: 767px) {
+
 	body{
 		background: url('../img/bgm.png');
 		background-position: top;
-    background-size: cover;
-    background-repeat: no-repeat;
+    	background-size: cover;
+    	background-repeat: no-repeat;
 	}
 	.caption h1 {
 		font-size: 2.3rem;
@@ -231,17 +234,10 @@ footer p{
 
 	.caption h3 {
 		font-size: 1.2rem;
-		padding-bottom: 1rem;
 	}
-
 
 	.narrow h1 {
 		font-size: 1.5rem;
-	}
-	.clients img {
-		max-width: 50%;
-		display: block;
-		margin: 0 auto;
 	}
 }
 
