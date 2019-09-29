@@ -170,6 +170,7 @@ a:hover{
 		border: none;
 		box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.24);
 		margin-bottom: 1.2rem;
+		height: 800px;
 	}
 
 	.card-title{
