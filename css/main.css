@@ -76,7 +76,7 @@ a:hover{
 	font-size: .75rem;
 	letter-spacing: .1rem;
 	background: rgb(255, 255, 255) !important;
-	box-shadow: 0px 3px 6px rgba(0, 0, 0, 16%);
+	box-shadow: 0px 3px 20px rgba(0, 0, 0, 16%);
 }
 
 .navbar-brand{
@@ -108,7 +108,7 @@ a:hover{
 .caption h1 {
 	font-size: 50px;
 	font-weight: 700;
-	text-shadow: 5px 8px 10px rgba(0, 0, 0, 0.16);
+	text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.253);
 	padding-bottom: 1rem;
 	animation: DPO 2.5s forwards 0s linear;
 }
@@ -122,20 +122,20 @@ a:hover{
 .btn-lg {
 	background: rgb(255, 145, 85);
 	border-width: 0px;
-	border-radius: 59px;
+	border-radius: 20px;
 	padding: 1rem 1.5rem;
 	margin: 1rem 1rem;
 	font-size: 1.1rem;
-	box-shadow: 8px 7px 10px rgba(0, 0, 0, 16%);
+	box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.253);
 }
 .btn-lg2 {
 	background: rgb(255, 145, 85);
 	border-width: 0px;
-	border-radius: 59px;
+	border-radius: 20px;
 	padding: 1rem 1.5rem;
 	margin: 1rem 1rem;
 	font-size: 1.1rem;
-	box-shadow: 8px 7px 10px rgba(0, 0, 0, 16%);
+	box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.253);
 }
 
 .aapc{
@@ -168,7 +168,7 @@ a:hover{
 		background: rgba(255, 144, 85, 0.856);
 		border-radius: 5px;
 		border: none;
-		box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.24);
+		box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.24);
 		margin-bottom: 1.2rem;
 		height: 800px;
 	}
@@ -258,7 +258,20 @@ footer p{
 }
 
 
+button{
+	background-color:rgb(223, 121, 53) !important;
+	border: none;
+	padding: .5rem 1rem;
+	border-radius: 3px;
+	color: white;
+	cursor: pointer;
+	box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.24);
+}
 
+button:hover{
+	background-color: white !important;
+	color: rgb(223, 121, 53) !important;
+}
 
 
 
